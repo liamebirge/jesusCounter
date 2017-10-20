@@ -5,3 +5,22 @@ Times Preached: 6 - 10/3/2017
 
 Times Preached: 4 - 10/4/2017
 
+
+Times Preached: 5 - 10/10/2017
+ Arrived At: 10:40
+
+Times Preached: 5 - 10/11/2017
+ Arrived At: 10:29
+ Minutes Late: -1
+
+Times Preached: 8 - 10/13/2017
+ Arrived At: 10:42
+ Minutes Late: 12
+
+Times Preached: 5 - 10/17/2017
+ Arrived At: 10:31
+ Minutes Late: 1
+
+Times Preached: 0 - 10/18/2017
+ Arrived At: UNCLOCKED
+ Minutes Late: null

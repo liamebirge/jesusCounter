@@ -5,7 +5,7 @@ int timesPreached, day, month, year, bttn1, bttn2, bttn1Stroke, bttn2Stroke;
 String date;
 PImage jesus;
 Boolean write, checkin;
-String timeArrived;
+String timeArrived, timeLate;
 
 void setup(){
   size(600, 600);
@@ -46,7 +46,7 @@ void draw(){
         write = true;
         String fileName = "scoreBoard.txt";
         //Write text to file
-        appendTextToFile(fileName, "\nTimes Preached: " + timesPreached + " - " + date + "\n Arrived At: " + timeArrived);
+        appendTextToFile(fileName, "\nTimes Preached: " + timesPreached + " - " + date + "\n Arrived At: " + timeArrived + "\n Minutes Late: " + timeLate);
         mousePressed = false;
       }
     } else {
@@ -64,7 +64,8 @@ void draw(){
         minute = "0" + minute;
       }
       timeArrived = hour + ":" + minute;
-      println("Time Saved As: " + timeArrived);
+      timeLate = str(int(minute) - 30);
+      println("Time Saved As: " + timeArrived + "\nMinutes Late: " + timeLate);
       checkin = true;
       mousePressed = false;
     }
@@ -73,7 +74,10 @@ void draw(){
     bttn2 = 100;
     bttn1Stroke = 1;
     bttn2Stroke = 1;
-    if (mousePressed){
+    if (mousePressed && (mouseButton == RIGHT)){
+      timesPreached--;
+      mousePressed = false;
+    } else if (mousePressed && (mouseButton == LEFT)){
       timesPreached++;
       mousePressed = false;
     }
