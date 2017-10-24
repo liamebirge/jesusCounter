@@ -24,3 +24,7 @@ Times Preached: 5 - 10/17/2017
 Times Preached: 0 - 10/18/2017
  Arrived At: UNCLOCKED
  Minutes Late: null
+
+Times Preached: 9 - 10/20/2017
+ Arrived At: 10:34
+ Minutes Late: 4
