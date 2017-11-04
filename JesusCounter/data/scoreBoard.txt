@@ -44,3 +44,11 @@ Times Preached: 4 - 10/27/2017
 Times Preached: 1 - 10/31/2017
  Arrived At: 10:50
  Minutes Late: 20
+
+Times Preached: 3 - 11/1/2017
+ Arrived At: 10:34
+ Minutes Late: 4
+
+Times Preached: 5 - 11/3/2017
+ Arrived At: 10:28
+ Minutes Late: -2
